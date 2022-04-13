@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div id="box">
+        <div id="container">
+          <section id="left-side">
+            <h1>Student</h1>
+            <h1>Grade</h1>
+            <h1>Calcy</h1>
+          </section>
+          <section id="right-side">
+            <form id='form-data'>
+              <input type="number" id="english-marks" placeholder="English" min="0" max="100" required/>
+              <input type="number" id="maths-marks" placeholder="Maths" min="0" max="100" required/>
+              <input type="number" id="science-marks" placeholder="Science" min="0" max="100" required/>
+              <input type="number" id="hindi-marks" placeholder="Hindi" min="0" max="100" required/>
+              <input type="number" id="computer-marks" placeholder="Computer" min="0" max="100" required/>
+              <button>Show Result</button>
+              <button type="reset" id="reset-button">Reset</button>
+            </form>
+          </section>
+        </div>
+        <section id="footer-side">
+          <p>
+            Out of 500 your total is <span id="total-number">361</span> and
+            Percentage is <span id="percentage">90</span>%.
+          </p>
+          <p>
+            Your grade is <span id="grade">A</span>. You are
+            <span id="status">Pass</span>.
+          </p>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

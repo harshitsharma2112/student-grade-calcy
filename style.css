@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Fredoka One", cursive;
+}
+
+body {
+  background-color: rgb(1, 192, 182);
+}
+
+#box {
+  background-color: rgb(48, 47, 47);
+  width: 600px;
+  height: 440px;
+  margin: 90px auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.9);
+}
+
+#container {
+  display: flex;
+}
+
+#left-side {
+  color: rgb(0, 204, 194);
+  border-left: 3px solid rgb(1, 192, 182);
+  padding-left: 10px;
+  margin: auto;
+}
+
+#left-side h1 {
+  font-weight: 100;
+  font-size: 30px;
+}
+
+#left-side h1:hover {
+  color: white;
+}
+
+#right-side {
+  margin: 50px;
+}
+
+#right-side input {
+  display: block;
+  border: none;
+  border-bottom: 1px solid rgb(99, 99, 99);
+  padding: 8px 4px;
+  margin: 7px 0px;
+  width: 250px;
+  color: white;
+  background-color: rgb(48, 47, 47);
+}
+
+#right-side input:focus{
+    outline: none;
+}
+
+#right-side input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#right-side button {
+  width: 100px;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  border: none;
+  color: rgb(1, 192, 182);
+  background-color: rgb(48, 47, 47);
+  cursor: pointer;
+}
+
+#right-side button:hover {
+  color: white;
+}
+
+
+#footer-side {
+  text-align: center;
+  margin: 10px auto;
+  color: white;
+  display: none;
+}
